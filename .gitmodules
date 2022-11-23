@@ -1,0 +1,3 @@
+[submodule "libromfs"]
+	path = libromfs
+	url = https://github.com/iTrooz/libromfs
