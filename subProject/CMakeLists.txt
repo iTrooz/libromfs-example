@@ -15,7 +15,7 @@ set(LIBROMFS_RESOURCE_LOCATION /mnt)
 
 
 # Include libromfs
-add_subdirectory(../libromfs ${CMAKE_CURRENT_BINARY_DIR}/libromfs)
+add_subdirectory(../libromfs ${CMAKE_CURRENT_BINARY_DIR}/libromfs-subProject)
 
 # Link libromfs into our application
 target_link_libraries(${PROJECT_NAME} PUBLIC ${LIBROMFS_LIBRARY})
