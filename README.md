@@ -1,0 +1,1 @@
+PoC for issue https://github.com/WerWolv/libromfs/issues/4
