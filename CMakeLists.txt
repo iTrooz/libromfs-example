@@ -17,7 +17,7 @@ target_link_libraries(${PROJECT_NAME} PUBLIC subProject)
 set(LIBROMFS_PROJECT_NAME ${PROJECT_NAME})
 
 # Set the location of our romfs folder
-set(LIBROMFS_RESOURCE_LOCATION /mnt)
+set(LIBROMFS_RESOURCE_LOCATION ${CMAKE_SOURCE_DIR}/resources)
 
 
 # Include libromfs

@@ -6,6 +6,6 @@
 using namespace std;
 
 int main(int argc, char * argv[]) {
-	romfs::testFunc();
+	cout << romfs::get("test.txt").string() << endl;
 	printf("%i\n", addition(5, 6));
 }

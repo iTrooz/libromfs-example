@@ -11,7 +11,7 @@ target_include_directories(${PROJECT_NAME} PUBLIC .)
 set(LIBROMFS_PROJECT_NAME ${PROJECT_NAME})
 
 # Set the location of our romfs folder
-set(LIBROMFS_RESOURCE_LOCATION /mnt)
+set(LIBROMFS_RESOURCE_LOCATION ${CMAKE_SOURCE_DIR}/subProject/resources)
 
 
 # Include libromfs

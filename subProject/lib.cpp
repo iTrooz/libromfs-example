@@ -1,7 +1,7 @@
-#include "stdio.h"
+#include<iostream>
 #include<romfs/romfs.hpp>
 
 int addition(int a, int b){
-	romfs::testFunc();
+	std::cout << romfs::get("test.txt").string() << std::endl;
 	return a+b;
 }
